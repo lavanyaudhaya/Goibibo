@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Goibibo_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Goibibo_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Goibibo_Suite" class="navigator-link ">
+                    <span>D:\AutomationTraining\Goibibo_Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Goibibo_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Goibibo_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Goibibo_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Goibibo_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Goibibo_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Goibibo_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Goibibo_Suite" class="hide-methods passed suite-Goibibo_Suite"> (hide)</a> <!-- hide-methods passed suite-Goibibo_Suite -->
+                      <a href="#" panel-name="suite-Goibibo_Suite" class="show-methods passed suite-Goibibo_Suite"> (show)</a> <!-- show-methods passed suite-Goibibo_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Goibibo_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="fullScreenShot">fullScreenShot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="proceedNextPage">proceedNextPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="selectDateAndGuests">selectDateAndGuests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="selectHotelOptions">selectHotelOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="selectHotelTab">selectHotelTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="selectHotelWithCheckInDetails">selectHotelWithCheckInDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Suite" title="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass" class="method navigator-link" hash-for-method="signUpWithMobileNumber(9551257257)">signUpWithMobileNumber(9551257257)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Goibibo_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Goibibo_Suite" class="panel Goibibo_Suite">
+          <div class="suite-Goibibo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullScreenShot">
+                  </a> <!-- fullScreenShot -->
+                  <span class="method-name">fullScreenShot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="proceedNextPage">
+                  </a> <!-- proceedNextPage -->
+                  <span class="method-name">proceedNextPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDateAndGuests">
+                  </a> <!-- selectDateAndGuests -->
+                  <span class="method-name">selectDateAndGuests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotelOptions">
+                  </a> <!-- selectHotelOptions -->
+                  <span class="method-name">selectHotelOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotelTab">
+                  </a> <!-- selectHotelTab -->
+                  <span class="method-name">selectHotelTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotelWithCheckInDetails">
+                  </a> <!-- selectHotelWithCheckInDetails -->
+                  <span class="method-name">selectHotelWithCheckInDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpWithMobileNumber(9551257257)">
+                  </a> <!-- signUpWithMobileNumber(9551257257) -->
+                  <span class="method-name">signUpWithMobileNumber</span>
+                  <span class="parameters">(9551257257)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Goibibo_Suite-class-passed -->
+        </div> <!-- panel Goibibo_Suite -->
+        <div panel-name="test-xml-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\AutomationTraining\Goibibo_Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Goibibo_Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_goibibo&quot;&gt;
+    &lt;parameter name=&quot;phoneNum&quot; value=&quot;9551257257&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_goibibo --&gt;
+&lt;/suite&gt; &lt;!-- Goibibo_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Goibibo_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test_goibibo (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Goibibo_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Goibibo_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Goibibo_Suite');
+function tableData_Goibibo_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'signUpWithMobileNumber')
+data.setCell(0, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(0, 3, 30219);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fullScreenShot')
+data.setCell(1, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(1, 3, 8276);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'proceedNextPage')
+data.setCell(2, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(2, 3, 6398);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectDateAndGuests')
+data.setCell(3, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(3, 3, 6254);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectHotelOptions')
+data.setCell(4, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(4, 3, 6198);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectHotelWithCheckInDetails')
+data.setCell(5, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(5, 3, 3722);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectHotelTab')
+data.setCell(6, 2, 'com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass')
+data.setCell(6, 3, 936);
+window.suiteTableData['Goibibo_Suite']= { tableData: data, tableDiv: 'times-div-Goibibo_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Goibibo_Suite">
+              </div> <!-- times-div-Goibibo_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Goibibo_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Goibibo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">browserLaunch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">urlLaunch</span>
+                <span class="method-start">2633 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signUpWithMobileNumber(9551257257)</span>
+                <span class="method-start">4023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotelTab</span>
+                <span class="method-start">34248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotelWithCheckInDetails</span>
+                <span class="method-start">35184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectDateAndGuests</span>
+                <span class="method-start">38909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotelOptions</span>
+                <span class="method-start">45165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">proceedNextPage</span>
+                <span class="method-start">51363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fullScreenShot</span>
+                <span class="method-start">57767 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

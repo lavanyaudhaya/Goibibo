@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-05T14:10:04 IST" name="Goibibo_Suite" finished-at="2024-01-05T14:11:08 IST" duration-ms="63426">
+    <groups>
+    </groups>
+    <test started-at="2024-01-05T14:10:04 IST" name="Test_goibibo" finished-at="2024-01-05T14:11:08 IST" duration-ms="63426">
+      <class name="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:02 IST" name="browserLaunch" finished-at="2024-01-05T14:10:04 IST" duration-ms="2617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:04 IST" name="urlLaunch" finished-at="2024-01-05T14:10:06 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="signUpWithMobileNumber(java.lang.String)[pri:1, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:06 IST" name="signUpWithMobileNumber" finished-at="2024-01-05T14:10:36 IST" duration-ms="30219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9551257257]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithMobileNumber -->
+        <test-method signature="selectHotelTab()[pri:2, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:36 IST" name="selectHotelTab" finished-at="2024-01-05T14:10:37 IST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotelTab -->
+        <test-method signature="selectHotelWithCheckInDetails()[pri:3, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:37 IST" name="selectHotelWithCheckInDetails" finished-at="2024-01-05T14:10:41 IST" duration-ms="3722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotelWithCheckInDetails -->
+        <test-method signature="selectDateAndGuests()[pri:4, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:41 IST" name="selectDateAndGuests" finished-at="2024-01-05T14:10:47 IST" duration-ms="6254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateAndGuests -->
+        <test-method signature="selectHotelOptions()[pri:5, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:47 IST" name="selectHotelOptions" finished-at="2024-01-05T14:10:53 IST" duration-ms="6198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotelOptions -->
+        <test-method signature="proceedNextPage()[pri:6, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:53 IST" name="proceedNextPage" finished-at="2024-01-05T14:10:59 IST" duration-ms="6398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedNextPage -->
+        <test-method signature="fullScreenShot()[pri:7, instance:com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass@1807e3f6]" started-at="2024-01-05T14:10:59 IST" name="fullScreenShot" finished-at="2024-01-05T14:11:08 IST" duration-ms="8276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullScreenShot -->
+      </class> <!-- com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass -->
+    </test> <!-- Test_goibibo -->
+  </suite> <!-- Goibibo_Suite -->
+</testng-results>

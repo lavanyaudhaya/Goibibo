@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Goibibo_Suite">
+<parameter name="url_link" value="https://www.goibibo.com/"></parameter>
+  <test thread-count="5" name="Test_goibibo">
+  <parameter name="phoneNum" value="9551257257"></parameter>
+  <parameter name="lastName" value="udhaya"></parameter>
+  <parameter name="hotelName" value="ITC Chola"></parameter>
+    <classes>
+      <class name="com.testNg.Goibibo_RunnerClass.Goibibo_RunnerClass"/>
+    </classes>
+  </test> <!-- Test_goibibo -->
+</suite> <!-- Goibibo_Suite -->
